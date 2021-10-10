@@ -9,5 +9,7 @@ public class Main {
         System.out.println(myDoctor.speciality);
 
         Patient patient = new Patient("juan carlos","juanCar@gmail.com");
+        patient.setWeight(68.8);//modiicar dato
+        System.out.println(patient.getWeight());//leer o mostrar dato
     }
 }
